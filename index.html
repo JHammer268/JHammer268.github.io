@@ -1,0 +1,192 @@
+<html>
+
+	<head>
+	
+		<title>JHMitchell DataScience</title>
+		
+		<style = "text/css>
+			body {
+				    background-image: url("GR.TIFF");
+
+			}
+		
+			#titleBar {
+				height: 80px;
+				line-height: 50px; 
+				background-color: #000000;
+				color: white;
+				vertical-align: middle;
+				font-size: 150%;
+				}
+				
+			#rightfloat {
+				float: right;
+			}	
+				
+			#mainMenu {
+				float: right;
+				position: relative;
+				top: -22px;
+				height: 50px;
+				font-size: 22px;
+				
+			}
+			
+			ul {
+				list-style-type: none;
+				color: white;
+			}	
+			#mainMenu li  {
+				float:left;
+				padding-right: 15px;
+				padding-left: 15px;
+				border-left-style: solid;
+				border-left-weight: 3px;
+				border-left-color: #E6E6E6;
+				
+				
+			}
+			#mainMenu li a {
+				color: white;
+				text-decoration: none;
+				}
+			
+			#mainMenu li a:hover {
+				color: white;
+				
+				border-bottom-style: solid;
+				border-bottom-weight: 5px;
+				border-bottom-color: #FE2EC8;
+				padding-bottom: 10px;	
+			}
+			.break {
+				clear: right;
+				height: 5px;
+				
+			}
+			img {
+				clip: rect(0px,60px,200px,0px);
+				object-fit: cover;
+			}
+			#headShot {
+				background-color: 	blue;
+				width: 200px;
+				height: 200px;
+				position: relative;
+				top: 0px;
+				border-radius: 100px;
+				float: left;
+				overflow: hidden;
+				
+			}
+			#stockQuotes {
+				float: right;
+				position: relative;
+				top: -10px;
+			}
+			#connect {
+				float: left;
+				position: relative;
+				top: -15px;
+			}
+			
+			#latestPosts {
+				background-color: #E6E6E6;
+				width: 225px;
+				height:550px;
+				border-radius: 25px;
+				padding-left: 25px;
+				float: left;
+				overflow: hidden;
+			}
+			#intro {
+				background-color: #E6E6E6;
+				width: 800px;
+				border-radius: 25px;
+				padding-left: 25px;
+				padding-right: 25px;
+				font-size: 110%;
+				float:right;
+				overflow: hidden;
+				}
+		</style>
+	
+	</head>
+	
+	<body>
+		<div id="titleBar">
+			Jesse Hammer Mitchell
+			<ul id = "mainMenu">
+				<li><a href= "index.html">Home</a></li>
+				<li><a href ="Blog.html">Blog</a></li>
+				<li><a href = "Links.html">Links</a></li>
+				<li><a href = "About.html">About</a></li>
+			</ul>
+			
+		</div>
+		
+		
+		<div class="break">
+		</div>
+		<div id = 'stockQuotes'>
+			
+			<script type="text/javascript" src="http://oilprice.com/widgets/brent/brentchart.js"></script><noscript>Please Enable Javascript for this <a href="http://oilprice.com/">Oil Price</a> widget to work</noscript>
+			<script type="text/javascript" src="http://oilprice.com/widgets/crude/crudechart.js"></script><noscript>Please Enable Javascript for this <a href="http://oilprice.com/">Oil Price</a> widget to work</noscript>
+			
+		</div>
+		</div>
+				<div id= "headshot">
+			
+				<img src="HeadShot.jpg" width="116%"  >
+			
+		</div>
+		<div id="connect">
+			
+			<a href="https://github.com/JHammer268" target="blank">
+				<img src="Octocat.png" width = 35 align="center"></a>
+			<a href="https://www.linkedin.com/in/jhmitchell268" target="blank">
+				<img src="Linkedin.png" width = 25px align="center"></a></p></p>
+		</div>
+		
+
+		<div class="break">
+			<hr>
+		</div>
+		
+		<div id="latestPosts">
+			<p><center><b><u>Latest Posts</u></b></center></p>
+			<p><a href="StormDataAnalysis.html" target="blank">Using R to analysize the NOAA's storm data</a></p>
+			<p><a href="T-test.html" target="blank">A T-test Walkthrough with Python</a></p>
+			<p><a href="Heirarchical_Clustering_Markdown.html" target="blank">Basic Clustering, PCA and SVD Analysis with R</a></p>
+
+		</div>
+		
+		<div id="intro">
+			<p>My name is Jesse Mitchell.  I'm a Petroleum Geologist with 11 years experience in the E&P industry. 
+			About a year ago I started hearing a lot about this thing called "Data Science" and started exploring what it was all about. 
+			It turns out there is a significant overlap between Petroleum Geology and Data Science workflows: gathering, 
+			integrating, and cleaning data, reshaping it into a usable format and then analyzing the data with the goals of generating 
+			new opportunities, mitigating risk, and increasing productivity. While some data science techniques were completely new to me 
+			(analyzing twitter threads for example) other areas (data cleaning, statistical and numerical analysis) were very familiar.
+			Whether looking at petrophysical studies, risk analysis, optimization of completion techniques, play analysis or production optimization, 
+			there are numerous applications. 
+			
+			<p>The Petroleum Industry as a whole is integrating more and more data science concepts.  Data
+			Vendors that used to just sell raw data are putting out new data analytics products and tools to help E&P companies move more quickly, 
+			and the E&P companies themselves are bringing on more data scientists and analysts to help extract value from huge amounts of industry data. Tools such as 
+			Spotfire and Tableau are used much more extensively than they were just a few years ago and I believe the trend will continue with further 
+			adoption of R, Python and other Data Science tools.  I decided to follow this idea to see where it leads, 
+			and I've recently been devoting most of my free time to building my skillset with Python, R, and SQL.</p>
+			<p>
+
+			I put this website together with the goal of documenting my progress.  So far the majority of this project has invovled getting up to speed with R and Python and the numerous 
+			libraries available for data analysis: pandas, numpy, dplyr, tidyr, ggplot, matplotlib, scikit-learn... <a href ="https://pypi.python.org/pypi">PyPI</a> contains 87327 packages
+			for Python! Thankfully you don't need quite that many for data analysis applications.  Please take a look at my plog or some of the links to the left to see what I've been working on.  The projects I have posted so far all invovle Open Source data, 
+			but I look forward to the chance to work on datasets in  Petroleum and other industries.  Thanks for visiting! 
+			</p>
+		</div>
+		
+	
+		
+	
+	</body>
