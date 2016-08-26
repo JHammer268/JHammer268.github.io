@@ -18,7 +18,20 @@
 				vertical-align: middle;
 				font-size: 150%;
 				}
-				
+			img {
+				clip: rect(0px,60px,200px,0px);
+				object-fit: cover;
+			}
+			#headShot {
+				background-color: 	blue;
+				width: 200px;
+				height: 200px;
+				position: relative;
+				top: -98px;
+				border-radius: 100px;
+				float: left;
+				overflow: hidden;
+			}				
 			#rightfloat {
 				float: right;
 			}	
@@ -61,27 +74,32 @@
 			}
 			.break {
 				clear: right;
-				height: 5px;
-				
+				height: 5px;	
+			}
+			#connect {
+				float: right;
+				position: relative;
+				top: -15px;
 			}
 			.post {
 			    background-color: #E6E6E6;
-				
-				
 				border-radius: 25px;
 				padding-top:1px;
 				padding-left: 25px;
 				padding-bottom: 15px;
 				font-size: 100%;
-				margin-bottom:20px;
-				
+				margin-bottom:20px;	
+				clear: all;
+			}
+			name {
+				margin-left: 200px;
 			}
 
 		</style>
 		
 	<body>
 		<div id="titleBar">
-			Jesse Hammer Mitchell
+			<name>Jesse Hammer Mitchell</name>
 			<ul id = "mainMenu">
 				<li><a href= "index.html">Home</a></li>
 				<li><a href ="blog.html">Blog</a></li>
@@ -94,7 +112,25 @@
 			
 		<div class="break"> 
 		</div>
+		
+	
+		<div id= "headshot">
 			
+			<img src="HeadShot.jpg" width="116%"  >
+			
+		</div>
+		<div id="connect">
+			
+			<a href="https://github.com/JHammer268" target="blank">
+				<img src="Octocat.png" width = 35 align="center"></a>
+			<a href="https://www.linkedin.com/in/jhmitchell268" target="blank">
+				<img src="LinkedIn.png" width = 25px align="center"></a></p></p>
+		</div>
+		
+
+		<div class="break">
+			
+		</div>		
 			<div class="post">
 			
 						<a href ="http://www.dataschool.io/" target = "blank">Dataschool.io</a>

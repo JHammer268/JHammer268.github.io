@@ -4,12 +4,23 @@
 	
 		<title>JHMitchell Blog</title>
 		
-		<style = "text/css>
-			body {
-				    background-image: url("GR.TIFF");
-
-			}
+		<style = "text/css">
 		
+			img {
+				clip: rect(0px,60px,200px,0px);
+				object-fit: cover;
+			}
+			#headShot {
+				background-color: 	blue;
+				width: 200px;
+				height: 200px;
+				position: relative;
+				top: -98px;
+				border-radius: 100px;
+				float: left;
+				overflow: hidden;
+				
+			}
 			#titleBar {
 				height: 80px;
 				line-height: 50px; 
@@ -64,6 +75,11 @@
 				height: 5px;
 				
 			}
+			#connect {
+				float: right;
+				position: relative;
+				top: -15px;
+			}
 			.post {
 			    background-color: #E6E6E6;
 				border-radius: 25px;
@@ -74,12 +90,15 @@
 				margin-bottom:20px;
 				
 			}
+			name {
+				margin-left: 200px;
+			}
 
 		</style>
 		
 	<body>
 		<div id="titleBar">
-			Jesse Hammer Mitchell
+			<name>Jesse Hammer Mitchell</name>
 			<ul id = "mainMenu">
 				<li><a href= "index.html">Home</a></li>
 				<li><a href ="blog.html">Blog</a></li>
@@ -88,7 +107,22 @@
 			</ul>
 				
 		</div>
+		<div class="break">
+		</div>
+
+		</div>
+				<div id= "headshot">
 			
+				<img src="HeadShot.jpg" width="116%"  >
+			
+		</div>
+		<div id="connect">
+			
+			<a href="https://github.com/JHammer268" target="blank">
+				<img src="Octocat.png" width = 35 align="center"></a>
+			<a href="https://www.linkedin.com/in/jhmitchell268" target="blank">
+				<img src="LinkedIn.png" width = 25px align="center"></a></p></p>
+		</div>	
 			
 		<div class="break"> 
 		</div>
@@ -169,8 +203,8 @@
 					<h3>
 						<a href = "R_Graphics_Cheatsheet.html" target = "blank">R Graphics Cheatsheet</a>
 					</h3>
+					<p>The basic commands of Base Plot, Lattice Plot, and ggplot</p>
 				</center>
-				<p>The basic commands of Base Plot, Lattice Plot, and ggplot</p>	
 			</div>
 			
 			<div class = "post">
@@ -179,8 +213,8 @@
 					<h3>
 						<a href = "R_Cheatsheet.html" target = "blank">R Cheatsheet</a>
 					</h3>
-				</center>
-				<p>Basic R syntax.  This is not even close to comprehensive guide, just a list of commands I put together when I was learning R.</p>		
+					<p>Basic R syntax.  This is not even close to comprehensive guide, just a list of commands I put together when I was learning R.</p>
+				</center>				
 			</div>
 		
 			
